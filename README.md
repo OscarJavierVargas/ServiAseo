@@ -37,7 +37,7 @@ Clona el repositorio en tu máquina local.
 
 bash
 Copiar código
-git clone https://github.com/tu-usuario/serviaseo.git
+git clone https://github.com/OscarJavierVargas/ServiAseo.git
 Importar el proyecto en Eclipse:
 
 Abre Eclipse IDE.
