@@ -42,9 +42,4 @@ public class TipoLimpiezaEntity {
 		this.precio_base = precio_base;
 	}
 	
-	
-	
-	
-	
-	
 }

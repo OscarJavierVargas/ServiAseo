@@ -2,6 +2,7 @@ package com.facturadorServiAseo.serviaseo.cliente.entities;
 
 import java.util.List;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
@@ -34,17 +35,17 @@ public class ClienteEntity {
 
 
 	@Id
-//	@Column(name="cedula")
+	@Column(name="cedula")
 	private String cedula;
-//	@Column(name="nombre")
+	@Column(name="nombre")
 	private String nombre;
-//	@Column(name="apellido")
+	@Column(name="apellido")
 	private String apellido;
-//	@Column(name="email")
+	@Column(name="email")
 	private String email;
-//	@Column(name="telefono")
+	@Column(name="telefono")
 	private String telefono;
-//	@Column(name="direccion")
+	@Column(name="direccion")
 	private String direccion;
 	
 	

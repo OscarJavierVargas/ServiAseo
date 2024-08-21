@@ -63,7 +63,7 @@ public class ClienteService {
 		LocalDateTime ahora = LocalDateTime.now();
 		try {
 			clienteRepository.save(usuario);
-			return new ResponseEntity<>("cliente creado con exito", HttpStatus.OK);
+		return new ResponseEntity<>("cliente creado con exito", HttpStatus.OK);	
 		}catch(Exception e) {
 			return new ResponseEntity<>(e.getMessage()+": verificar datos ingresados", HttpStatus.OK);
 		}
